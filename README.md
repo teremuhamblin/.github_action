@@ -7,6 +7,7 @@
 ###### Remis au propre, structuré, cohérent et professionnel.
 > 🚀 Ce projet contient un exemple minimaliste d’un workflow GitHub Actions.  
 - À chaque git push, le workflow se déclenche automatiquement et affiche un simple message dans les logs.
+- 📘 Voir le CHANGELOG complet : [docs/CHANGELOG.md](docs/CHANGELOG.md)
 
 ---
 
