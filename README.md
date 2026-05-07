@@ -27,13 +27,31 @@ Hello
 ---
 
 ### 📁 Structure du projet
+>Ce message apparaît dans les logs du job `test`.
 ```text
 .github_action/
 │
 ├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug.md
+│   │   ├── feature.md
+│   │   └── task.md
+│   │
+│   ├── PULL_REQUEST_TEMPLATE/
+│   │   ├── general.md
+│   │   ├── bugfix.md
+│   │   └── feature.md
+│   │
+│   ├── SECURITY.md
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CODEOWNERS
+│   ├── dependabot.yml
 │   └── workflows/
 │       └── hello.yml
 │
+├── milestone_v1.0.md
+├── issue_v1.0.md
+├── release_v1.0.md
 └── README.md
 ```
 
