@@ -1,4 +1,7 @@
-###### README.md * markdown / Projet final réorganisé : 
+###### README.md * markdown / Projet final réorganisé :
+###### 🛠️ Badge GitHub Actions  : ![Hello Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/hello.yml/badge.svg)
+
+---
 
 # 📄 .github_action
 ###### Remis au propre, structuré, cohérent et professionnel.
