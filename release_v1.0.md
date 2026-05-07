@@ -1,4 +1,4 @@
-# 🚀 Release v1.5 — Pack GitHub complet
+# 🚀 Release v1.0 — Pack GitHub complet
 
 ## 🎯 Objectif
 Fournir un pack GitHub complet, propre et professionnel pour le projet `.github_action`.
