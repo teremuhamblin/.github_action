@@ -23,7 +23,7 @@ Hello
 ```
 
 <div align="center">
-  <img src="docs/assets/logo.png" alt="GitHub Action Logo" width="100"/>
+  <img src=".github_action/docs/assets/logo.png" alt="GitHub Action Logo" width="100"/>
 </div>
 
 ---
