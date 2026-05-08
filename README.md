@@ -3,10 +3,8 @@
 > 🛠️ Intégration Continue
 <p align="right">
   
-![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/hello.yml/badge.svg)
+![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/action.yml/badge.svg)
 <p/>
-
-
 
 ---
 
