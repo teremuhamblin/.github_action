@@ -1,8 +1,8 @@
-###### README.md * markdown / Projet final réorganisé :
+###### README.md * markdown
 ###### 🛠️ Badge GitHub Actions
-> 🛠️ Intégration Continue
+> Intégration Continue
 <p align="right">
-  
+
 ![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/action.yml/badge.svg)
 <p/>
 
@@ -87,7 +87,7 @@ jobs:
 ### 🤝 Contribution
 >Les contributions sont les bienvenues.  
 Merci de suivre les règles définies dans :
-- CONTRIBUTING.md
+- [CONTRIBUTING.md](.github/CONTRIBUTING.md)
 - les templates de Pull Request
 - les templates d’issues
 
@@ -95,23 +95,23 @@ Merci de suivre les règles définies dans :
 
 ### 🔐 Sécurité
 Pour signaler une faille :  
-👉 Voir SECURITY.md
+👉 Voir [SECURITY.md](.github/SECURITY.md)
 
 ---
 
 ### 👮 Code de conduite
-👉 Voir CODEOFCONDUCT.md
+👉 Voir [CODEOFCONDUCT.md](.github/CODEOFCONDUCT.md)
 
 ---
 
 ### 👑 Propriétaires du code
-👉 Voir CODEOWNERS
+👉 Voir [CODEOWNERS](.github/CODEOWNERS)
 
 ---
 
 ### 📜 Licence
 >Ce projet peut être utilisé librement à titre d’exemple pédagogique.
-
+👉 Voir [LICENSE](LICENSE)
 ---
 
 ### 🎯 Résultat et mise à jour
