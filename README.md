@@ -43,8 +43,10 @@ Hello
 │   │   ├── bugfix.md
 │   │   └── feature.md
 │   │
-│   ├── SECURITY.md
+│   ├── .gitkeeps
+│   ├── SECURITY.md 
 │   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
 │   ├── CODEOWNERS
 │   ├── dependabot.yml
 │   └── workflows/
