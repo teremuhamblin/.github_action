@@ -111,7 +111,8 @@ Pour signaler une faille :
 
 ### 📜 Licence
 ###### Ce projet peut être utilisé librement à titre d’exemple pédagogique.
-👉 Voir [LICENSE](LICENSE)
+👉 Voir [LICENSE](.github_action/LICENSE)
+
 ---
 
 ### 🎯 Résultat et mise à jour
