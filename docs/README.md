@@ -69,9 +69,25 @@ docs/index.md
 - professionnelle  
 - facile à maintenir  
 ```
-- Il accompagne le dépôt .github_action et permet aux contributeurs ou utilisateurs de comprendre rapidement le fonctionnement du projet.
+- Il accompagne le dépôt `.github_action` et permet aux contributeurs ou utilisateurs de comprendre rapidement le fonctionnement du projet.
 
 ---
+
+### 🎨 Thème personnalisé de la documentation
+- La documentation utilise un `**thème Sphinx personnalisé**`
+>Ce thème inclut :
+```md
+- un design moderne bleu/violet
+- un layout HTML personnalisé
+- un header avec le logo du projet
+- un style sombre cyber‑tech
+- une structure claire et professionnelle
+```
+>📁 Le thème se trouve dans :  
+```text
+docs/_themes/github_action/
+```
+- Il est activé automatiquement via `conf.py`.
 
 ### 🔗 Liens utiles
 >README principal du projet :
