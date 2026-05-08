@@ -1,7 +1,4 @@
 ###### README.md * markdown
-<div align="right">
-  <img src="docs/assets/github_action.png" alt="Logo .github_action" width="100" height="100">
-</div>
 ###### 🛠️ Badge GitHub Actions
 > Intégration Continue
 <p align="right">
