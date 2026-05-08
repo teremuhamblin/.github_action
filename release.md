@@ -1,3 +1,24 @@
+# 🚀 Release v2.0
+## .github_action — Version améliorée et stabilisée
+
+### 🎉 Nouveautés
+- Nouveau workflow avancé `advanced-ci.yml`
+- Badge GitHub Actions corrigé et fonctionnel
+- README.md amélioré (v2.0)
+- Ajout d’un CHANGELOG.md
+- Structure du dépôt clarifiée et nettoyée
+
+### ✔️ Contenu inclus
+- [x] Workflow avancé multi-OS
+- [x] Documentation mise à jour
+- [x] Badge opérationnel
+- [x] Versioning propre
+
+### 📦 Tag
+`v2.0`
+
+---
+
 # 🚀 Release v1.0 — Pack GitHub complet
 
 ## 🎯 Objectif
