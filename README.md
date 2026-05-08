@@ -1,9 +1,12 @@
 ###### README.md * markdown / Projet final réorganisé :
-###### 🛠️ Badge GitHub Actions  : 
-![Hello Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/hello.yml/badge.svg)
+###### 🛠️ Badge GitHub Actions
+> 🛠️ Intégration Continue
+<p align="right">
+  
+![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/hello.yml/badge.svg)
+<p/>
 
-###### 🛠️ Intégration Continue
-![Advanced CI](https://github.com/teremuhamblin/.github_action/actions/workflows/advanced-ci.yml/badge.svg)
+
 
 ---
 
