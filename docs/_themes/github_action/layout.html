@@ -1,0 +1,13 @@
+{% extends "!basic/layout.html" %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="{{ pathto('_themes/github_action/static/css/theme.css', 1) }}">
+{% endblock %}
+
+{% block relbar1 %}
+<div class="ga-header">
+    <img src="{{ pathto('_themes/github_action/static/images/logo.png', 1) }}" class="ga-logo">
+    <span class="ga-title">.github_action Documentation</span>
+</div>
+{{ super() }}
+{% endblock %}
