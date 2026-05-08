@@ -22,10 +22,6 @@
 Hello
 ```
 
-<div align="center">
-  <img src="docs/assets/github_action.png" alt="GitHub Action Logo" width="100"/>
-</div>
-
 ---
 
 ### 🎯 Objectif
@@ -131,5 +127,9 @@ Ton projet est maintenant :
 - prêt à être poussé sur GitHub
 - prêt à être mise à jour 
 ```
+
+<div align="center">
+  <img src="docs/assets/github_action.png" alt="GitHub Action Logo" width="300"/>
+</div>
 
 ---
