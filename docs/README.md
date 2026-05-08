@@ -9,11 +9,13 @@
 ### 📁 Contenu du dossier
 ##### assets/
 >Contient toutes les ressources visuelles utilisées dans la documentation :  
+```md
 - logos  
 - icônes  
 - images illustratives  
-- captures d’écran  
->Ce dossier permet de garder une documentation propre et bien organisée.
+- captures d’écran
+```
+- Ce dossier permet de garder une documentation propre et bien organisée.
 
 ---
 
@@ -29,29 +31,36 @@
 
 ---
 
-index.md
-Page d’accueil de la documentation.  
-Elle sert de point d’entrée pour naviguer dans les différentes sections du projet.
+##### index.md
+>Page d’accueil de la documentation.  
+- Elle sert de point d’entrée pour naviguer dans les différentes sections du projet.
 
 ---
 
-🧭 Objectif du dossier docs/
-
-Ce dossier a pour but de fournir une documentation :
-
+### 🧭 Objectif du dossier docs/
+>Ce dossier a pour but de fournir une documentation :
+```md
 - claire  
 - structurée  
 - professionnelle  
 - facile à maintenir  
-
-Il accompagne le dépôt .github_action et permet aux contributeurs ou utilisateurs de comprendre rapidement le fonctionnement du projet.
+```
+- Il accompagne le dépôt .github_action et permet aux contributeurs ou utilisateurs de comprendre rapidement le fonctionnement du projet.
 
 ---
 
-🔗 Liens utiles
-
-- README principal du projet : ../README.md  
-- Workflows GitHub Actions : ../.github/workflows/  
-- Templates d’issues et de pull requests : ../.github/  
+### 🔗 Liens utiles
+>README principal du projet :
+```md
+../README.md
+```
+>Workflows GitHub Actions :
+```md
+../.github/workflows/
+``` 
+>Templates d’issues et de pull requests :
+```text
+../.github/
+```
 
 ---
