@@ -9,13 +9,28 @@
 ### 📁 Contenu du dossier
 #### 📘 Structures
 La documentation avancée du projet est disponible dans le dossier `docs/` :
-- 📚 **Navigation générale** : `docs/navigation.rst`
-- 📂 **Sections du projet** : `docs/sections.rst`
-- 🧭 **Guides pratiques** : `docs/guides.rst`
-- 📝 **Historique complet** : `docs/CHANGELOG.md`
-- 🏠 **Page d’accueil** : `docs/index.md`
+>📚 **Navigation générale** :
+```md
+docs/navigation.rst
+```
+>📂 **Sections du projet** :
+```md
+docs/sections.rst
+```
+>🧭 **Guides pratiques** :
+```md
+docs/guides.rst
+```
+>📝 **Historique complet** :
+```md
+docs/CHANGELOG.md
+```
+>🏠 **Page d’accueil** :
+```md
+docs/index.md
+```
+- Ces fichiers offrent une vue complète, structurée et professionnelle du projet `.github_action`.
 
-Ces fichiers offrent une vue complète, structurée et professionnelle du projet `.github_action`.
 ##### assets/
 >Contient toutes les ressources visuelles utilisées dans la documentation :  
 ```md
