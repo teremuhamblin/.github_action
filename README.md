@@ -49,6 +49,7 @@ Hello
 │   │   └── feature.md
 │   │
 │   ├── .gitkeeps
+│   ├── LICENSE 
 │   ├── SECURITY.md 
 │   ├── CODE_OF_CONDUCT.md
 │   ├── CONTRIBUTING.md
@@ -60,6 +61,7 @@ Hello
 │   ├── .gitkeeps
 │
 ├── milestone.md
+├── package.json
 ├── issue.md
 ├── release.md
 ├── README.md 
