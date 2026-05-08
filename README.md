@@ -48,7 +48,7 @@ Hello
 │   │   ├── bugfix.md
 │   │   └── feature.md
 │   │
-│   ├── .gitkeeps
+│   ├── .gitkeep
 │   ├── LICENSE 
 │   ├── SECURITY.md 
 │   ├── CODE_OF_CONDUCT.md
@@ -58,14 +58,14 @@ Hello
 │   └── workflows/
 │       └── hello.yml
 ├── docs/
-│   ├── .gitkeeps
+│   ├── .gitkeep
 │
 ├── milestone.md
 ├── package.json
 ├── issue.md
 ├── release.md
 ├── README.md 
-└── .gitkeeps
+└── .gitkeep
 ```
 
 ---
