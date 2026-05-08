@@ -110,7 +110,7 @@ Pour signaler une faille :
 ---
 
 ### 📜 Licence
->Ce projet peut être utilisé librement à titre d’exemple pédagogique.
+###### Ce projet peut être utilisé librement à titre d’exemple pédagogique.
 👉 Voir [LICENSE](LICENSE)
 ---
 
