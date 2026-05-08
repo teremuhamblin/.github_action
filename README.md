@@ -57,7 +57,7 @@ Hello
 │   ├── CODEOWNERS
 │   ├── dependabot.yml
 │   └── workflows/
-│       └── hello.yml
+│       └── action.yml
 ├── docs/
 │   ├── .gitkeep
 │
@@ -72,7 +72,7 @@ Hello
 ---
 
 ### 📄 Contenu du workflow :
-##### .github/workflows/hello.yml
+##### .github/workflows/action.yml
 ```yaml
 name: Hello
 
@@ -83,8 +83,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello
-        run: echo "Hello"
+      - name: Print action
+        run: echo "action"
 ```
 
 ### 🤝 Contribution
