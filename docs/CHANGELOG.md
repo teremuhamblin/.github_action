@@ -1,5 +1,6 @@
-# 📘 CHANGELOG — .github_action
-Toutes les modifications importantes du projet sont documentées ici.
+###### 📘 CHANGELOG.md * markdown
+>.github_action
+- Toutes les modifications importantes du projet sont documentées ici.
 
 ---
 
