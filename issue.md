@@ -1,3 +1,21 @@
+# 📝 Issue — Finalisation de la version 2.0
+## Projet : .github_action
+
+### 📄 Description
+Cette issue regroupe toutes les tâches nécessaires pour livrer la version 2.0 du projet.
+
+### ✔️ Checklist
+- [x] Ajouter un workflow avancé (matrix, cache, tests)
+- [x] Corriger le badge GitHub Actions
+- [x] Mettre à jour le README.md
+- [x] Ajouter un CHANGELOG.md
+- [x] Préparer la release v2.0
+
+### 🔗 Milestone associé
+`v2.0 — Version améliorée`
+
+---
+
 # 📝 Issue — Finalisation v1.0  
 ## .github_action — Version 1.0
 
