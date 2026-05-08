@@ -1,0 +1,56 @@
+/* --- GLOBAL --- */
+body {
+    background-color: #0d0f17;
+    color: #e6e6e6;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* --- LINKS --- */
+a {
+    color: #4da6ff;
+}
+a:hover {
+    color: #66c2ff;
+}
+
+/* --- HEADER --- */
+.ga-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #1f2330;
+}
+
+.ga-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.ga-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #66b3ff;
+}
+
+/* --- CODE BLOCKS --- */
+.highlight {
+    background-color: #1a1f2e !important;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* --- SIDEBAR --- */
+div.sphinxsidebar {
+    background-color: #11131c;
+    border-right: 1px solid #1f2330;
+}
+
+div.sphinxsidebar a {
+    color: #66b3ff;
+}
+
+/* --- HEADINGS --- */
+h1, h2, h3 {
+    color: #7ab8ff;
+}
