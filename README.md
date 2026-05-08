@@ -77,6 +77,34 @@ jobs:
         run: echo "Hello"
 ```
 
+### 🤝 Contribution
+>Les contributions sont les bienvenues.  
+Merci de suivre les règles définies dans :
+- CONTRIBUTING.md
+- les templates de Pull Request
+- les templates d’issues
+
+---
+
+### 🔐 Sécurité
+Pour signaler une faille :  
+👉 Voir SECURITY.md
+
+---
+
+### 👮 Code de conduite
+👉 Voir CODEOFCONDUCT.md
+
+---
+
+### 👑 Propriétaires du code
+👉 Voir CODEOWNERS
+
+---
+
+### 📜 Licence
+>Ce projet peut être utilisé librement à titre d’exemple pédagogique.
+
 ---
 
 ### 🎯 Résultat et mise à jour
