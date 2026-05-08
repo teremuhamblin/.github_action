@@ -51,6 +51,8 @@ Hello
 │   ├── dependabot.yml
 │   └── workflows/
 │       └── hello.yml
+├── docs/
+│   ├── .gitkeeps
 │
 ├── milestone_v1.0.md
 ├── issue_v1.0.md
