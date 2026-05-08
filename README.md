@@ -22,6 +22,10 @@
 Hello
 ```
 
+<div align="center">
+  <img src="docs/assets/logo.png" alt="GitHub Action Logo" width="100"/>
+</div>
+
 ---
 
 ### 🎯 Objectif
