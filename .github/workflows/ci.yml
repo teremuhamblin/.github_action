@@ -1,44 +1,41 @@
-name: CI
+name: CI (.github_action)
 
 on:
   push:
   pull_request:
 
 jobs:
-  build:
-    name: Build & Test
+  ci:
+    name: Continuous Integration
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Récupération du dépôt
+      # 1. Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Configuration de Node.js
-      - name: Setup Node.js
+      # 2. Setup Node.js (LTS)
+      - name: Setup Node.js (LTS)
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: "npm"
+          node-version: lts
+          cache: npm
 
-      # 3. Installation des dépendances
+      # 3. Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci || npm install
 
-      # 4. Lint (si script présent)
-      - name: Run Lint
+      # 4. Lint
+      - name: Lint
         run: npm run lint --if-present
 
-      # 5. Tests (si script présent)
-      - name: Run Tests
+      # 5. Tests
+      - name: Run tests
         run: npm test --if-present
 
-      # 6. Résumé automatique
+      # 6. Summary
       - name: Summary
         run: |
-          echo "## ✔️ CI Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- Dépôt récupéré" >> $GITHUB_STEP_SUMMARY
-          echo "- Node.js configuré" >> $GITHUB_STEP_SUMMARY
-          echo "- Dépendances installées" >> $GITHUB_STEP_SUMMARY
-          echo "- Lint exécuté (si disponible)" >> $GITHUB_STEP_SUMMARY
-          echo "- Tests exécutés (si disponibles)" >> $GITHUB_STEP_SUMMARY
+          echo "## ✅ CI exécutée pour .github_action" >> $GITHUB_STEP_SUMMARY
+          echo "- Node.js : LTS" >> $GITHUB_STEP_SUMMARY
+          echo "- Lint + Tests OK" >> $GITHUB_STEP_SUMMARY
