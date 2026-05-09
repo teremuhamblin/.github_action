@@ -137,6 +137,7 @@ Ton projet est maintenant :
 <p align="center">
 
 ![Version](https://img.shields.io/badge/Version-3.0-red)
+
 ![Node](https://img.shields.io/badge/NodeJS-22.1.LTS-purple)
 </p>
 
