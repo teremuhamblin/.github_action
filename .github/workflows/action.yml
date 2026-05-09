@@ -1,7 +1,31 @@
 name: Action
-on: [push]
+
+on:
+  push:
+
 jobs:
   test:
+    name: Run Action
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "Action"
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js (LTS)
+      - name: Setup Node.js (LTS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts
+
+      # 3. Run action
+      - name: Execute action
+        run: echo "Action exécutée avec succès"
+
+      # 4. Summary
+      - name: Summary
+        run: |
+          echo "## ⚡ Action exécutée" >> $GITHUB_STEP_SUMMARY
+          echo "- Déclenchée par : push" >> $GITHUB_STEP_SUMMARY
+          echo "- Node.js : LTS" >> $GITHUB_STEP_SUMMARY
