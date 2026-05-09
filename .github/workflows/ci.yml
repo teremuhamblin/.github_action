@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    name: Build & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Récupération du dépôt
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Configuration de Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      # 3. Installation des dépendances
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Lint (si script présent)
+      - name: Run Lint
+        run: npm run lint --if-present
+
+      # 5. Tests (si script présent)
+      - name: Run Tests
+        run: npm test --if-present
+
+      # 6. Résumé automatique
+      - name: Summary
+        run: |
+          echo "## ✔️ CI Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Dépôt récupéré" >> $GITHUB_STEP_SUMMARY
+          echo "- Node.js configuré" >> $GITHUB_STEP_SUMMARY
+          echo "- Dépendances installées" >> $GITHUB_STEP_SUMMARY
+          echo "- Lint exécuté (si disponible)" >> $GITHUB_STEP_SUMMARY
+          echo "- Tests exécutés (si disponibles)" >> $GITHUB_STEP_SUMMARY
