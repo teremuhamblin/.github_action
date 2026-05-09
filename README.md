@@ -5,6 +5,10 @@
 <p align="left">
 
 ![Action Base Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
+
+![Package Version](https://raw.githubusercontent.com/teremuhamblin/.github_action/main/.github/badges/version.svg)
+
+![GitHub tag](https://img.shields.io/github/v/tag/teremuhamblin/.github_action)
 <p/>
 
 ---
