@@ -1,0 +1,11 @@
+name: Action
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print action
+        run: echo "action"
