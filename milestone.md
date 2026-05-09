@@ -1,3 +1,29 @@
+# 🎯 Milestone — Version 2.0 → 3.0
+## Projet : .github_action
+
+### 🎯 Objectif global
+Préparer la transition entre la version 2.0 et la version 3.0 avec une base plus robuste, une documentation améliorée et des workflows plus professionnels.
+
+---
+
+### ✔️ Objectifs complétés
+- [x] Mise à jour du README.md vers la v2.0
+- [x] Ajout du workflow CI simple mais complet
+- [x] Ajout du workflow Release simple mais complet
+- [x] Ajout du workflow Deploy simple mais complet
+- [x] Création du pack `.github` niveau entreprise
+- [x] Ajout des templates Issues, PR, Discussions, RFC
+- [x] Ajout des fichiers de gouvernance (CODEOWNERS, SECURITY, CONTRIBUTING)
+- [x] Ajout de dependabot.yml et pages.yml
+- [x] Préparation de la structure pour la v3.0
+
+---
+
+### 📌 Statut
+100% complété
+
+---
+
 # 🎯 Milestone — v2.0
 ## Projet : .github_action
 
