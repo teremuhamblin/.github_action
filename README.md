@@ -135,7 +135,7 @@ Ton projet est maintenant :
 
 ---
 
-<p align="center">
+<p align="justified">
 
 ![Version](https://img.shields.io/badge/version-3.0-purple)
 ![Node](https://img.shields.io/badge/node-%3E%3D20-purple)
