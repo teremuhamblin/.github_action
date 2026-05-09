@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Génération du changelog automatique
+      - name: Generate changelog
+        id: changelog
+        run: |
+          echo "## 📦 Release ${{ github.ref_name }}" > changelog.md
+          echo "" >> changelog.md
+          echo "### 🔄 Commits inclus :" >> changelog.md
+          git log -10 --pretty=format:"- %s" >> changelog.md
+
+      # 3. Création de la release GitHub
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: "Release ${{ github.ref_name }}"
+          body_path: changelog.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4. Résumé
+      - name: Summary
+        run: |
+          echo "## 🏷️ Release créée" >> $GITHUB_STEP_SUMMARY
+          echo "- Tag : ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Changelog généré automatiquement" >> $GITHUB_STEP_SUMMARY
