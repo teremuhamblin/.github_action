@@ -4,6 +4,36 @@
 
 ---
 
+🟦 v2.0 — Améliorations majeures (2026-05-09)
+
+🚀 Nouveautés
+- Ajout du workflow avancé advanced-ci.yml
+  - Exécution multi‑OS (Ubuntu, macOS, Windows)
+  - Cache intelligent Node.js
+  - Linting automatique
+  - Tests automatisés
+  - Résumé dans GITHUBSTEPSUMMARY
+- Ajout d’un badge GitHub Actions mis à jour
+- Ajout d’une structure de documentation plus propre (docs/)
+- Ajout du logo dans docs/assets/
+- Ajout des fichiers :
+  - milestone.md
+  - issue.md
+  - release.md
+
+🧹 Améliorations
+- Nettoyage complet du dépôt
+- Réorganisation de .github/ et des templates
+- Mise à jour du README.md vers la version 2.0
+- Harmonisation de la structure du projet
+- Documentation clarifiée et plus professionnelle
+
+🐛 Corrections
+- Correction du badge GitHub Actions qui pointait vers un workflow inexistant
+- Correction de chemins dans la documentation
+
+---
+
 ## 🟩 v1.5 — Pack GitHub complet (2026-05-08)
 
 ### ✨ Ajouté
