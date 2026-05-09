@@ -2,9 +2,9 @@
 ###### 🛠️ Badge GitHub Actions
 > Intégration Continue
 
-<p align="right">
+<p align="left">
 
-![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/action.yml/badge.svg)
+![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
 <p/>
 
 ---
@@ -20,7 +20,7 @@
 ### ▶️ Exécution
 >À chaque git push, GitHub Actions lance automatiquement le workflow et affiche :
 ```md
-Hello
+Base
 ```
 
 ---
@@ -57,7 +57,7 @@ Hello
 │   ├── CODEOWNERS
 │   ├── dependabot.yml
 │   └── workflows/
-│       └── action.yml
+│       └── base.yml
 ├── docs/
 │   ├── .gitkeep
 │
@@ -72,9 +72,9 @@ Hello
 ---
 
 ### 📄 Contenu du workflow :
-##### .github/workflows/action.yml
+##### .github/workflows/base.yml
 ```yaml
-name: Hello
+name: Base
 
 on:
   push:
@@ -83,8 +83,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Print action
-        run: echo "action"
+      - name: Print base
+        run: echo "base"
 ```
 
 ### 🤝 Contribution
@@ -135,7 +135,7 @@ Ton projet est maintenant :
 
 ---
 
-<p align="justified">
+<p align="center">
 
 ![Version](https://img.shields.io/badge/Version-3.0-red)
 ![Node](https://img.shields.io/badge/NodeJS-22.1.LTS-purple)
