@@ -1,0 +1,15 @@
+# Configuration GitHub Pages
+
+source:
+  branch: main
+  path: /docs
+
+build:
+  environment:
+    node: 20
+  commands:
+    - npm install --if-present
+    - npm run build --if-present
+
+publish:
+  directory: docs/
