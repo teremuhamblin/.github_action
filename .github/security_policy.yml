@@ -1,0 +1,18 @@
+# Politique de sécurité du projet
+
+contact:
+  email: security@example.com
+  url: https://github.com/teremuhamblin/.github_action/security
+
+vulnerability_reporting:
+  process: >
+    Merci de signaler toute faille de sécurité via GitHub Security Advisories.
+    Ne publiez jamais d'informations sensibles dans une issue publique.
+
+supported_versions:
+  - "2.x"
+  - "1.x"
+
+response_time:
+  standard: "72h"
+  critical: "24h"
