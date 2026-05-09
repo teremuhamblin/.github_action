@@ -4,7 +4,7 @@
 
 <p align="left">
 
-![Action Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
+![Action Base Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
 <p/>
 
 ---
