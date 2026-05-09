@@ -142,12 +142,12 @@ Ton projet est maintenant :
 
 <p align="center">
   <img src=".github/badges/version.svg" alt="Version">
-  <img src=".github/badges/ci.svg" alt="CI">
+  <img src=".github/badges/ci.svg" alt="Ci">
   <img src=".github/badges/deploy.svg" alt="Deploy">
   <img src=".github/badges/release.svg" alt="Release">
-  <img src=".github/badges/auto-merge.svg" alt="Auto Merge">
-  <img src=".github/badges/auto-comment.svg" alt="Auto Comment">
-  <img src=".github/badges/node.svg" alt="Node LTS">
+  <img src=".github/badges/auto-merge.svg" alt="AutoM">
+  <img src=".github/badges/auto-comment.svg" alt="AutoC">
+  <img src=".github/badges/node.svg" alt="LTS">
   <img src=".github/badges/license.svg" alt="License">
   <img src=".github/badges/author.svg" alt="Author">
   <img src=".github/badges/status.svg" alt="Status">
