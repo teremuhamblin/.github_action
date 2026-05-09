@@ -1,0 +1,16 @@
+blank_issues_enabled: false
+
+contact_links: []
+
+issue_templates:
+  - name: "🐞 Bug Report"
+    description: "Signaler un bug reproductible avec détails techniques"
+    path: "bug.md"
+
+  - name: "🚀 Feature Request"
+    description: "Proposer une nouvelle fonctionnalité ou amélioration"
+    path: "feature.md"
+
+  - name: "📌 Task"
+    description: "Créer une tâche technique, maintenance ou refactor"
+    path: "task.md"
