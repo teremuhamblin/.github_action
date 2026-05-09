@@ -1,0 +1,45 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js (si ton projet utilise Node)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm install --if-present
+
+      # 4. Build (si script présent)
+      - name: Build project
+        run: npm run build --if-present
+
+      # 5. Déploiement GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+
+      # 6. Résumé
+      - name: Summary
+        run: |
+          echo "## 🚀 Déploiement effectué" >> $GITHUB_STEP_SUMMARY
+          echo "- Branche : main" >> $GITHUB_STEP_SUMMARY
+          echo "- Dossier publié : dist/" >> $GITHUB_STEP_SUMMARY
