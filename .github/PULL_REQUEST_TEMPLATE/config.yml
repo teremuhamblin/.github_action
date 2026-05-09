@@ -1,0 +1,14 @@
+blank_pull_requests_enabled: false
+
+pull_request_templates:
+  - name: "✨ General PR"
+    description: "Pull Request générale pour modifications diverses"
+    path: "general.md"
+
+  - name: "🐞 Bugfix PR"
+    description: "Pull Request dédiée à la correction d’un bug"
+    path: "bugfix.md"
+
+  - name: "🚀 Feature PR"
+    description: "Pull Request pour ajouter une nouvelle fonctionnalité"
+    path: "feature.md"
