@@ -134,3 +134,15 @@ Ton projet est maintenant :
 </div>
 
 ---
+
+<p align="right">
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
+![CI](https://github.com/teremuhamblin/.github_action/actions/workflows/ci.yml/badge.svg)
+
+![License](https://img.shields.io/github/license/teremuhamblin/.github_action)
+
+![Node](https://img.shields.io/badge/node-%3E%3D20-green)
+
+</p>
