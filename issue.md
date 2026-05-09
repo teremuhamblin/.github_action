@@ -1,3 +1,27 @@
+# 📝 Issue — Préparation de la version 3.0
+## Projet : .github_action
+
+### 📄 Description
+Cette issue regroupe toutes les tâches nécessaires pour finaliser la transition entre la version 2.0 et la version 3.0 du projet.
+
+---
+
+### ✔️ Checklist
+- [x] Finaliser le pack `.github` niveau entreprise
+- [x] Ajouter les templates RFC
+- [x] Ajouter les templates Discussions
+- [x] Ajouter les workflows CI / Deploy / Release
+- [x] Mettre à jour la documentation interne
+- [x] Préparer la base pour la v3.0 (structure, workflows, gouvernance)
+- [x] Générer la release v3.0
+
+---
+
+### 🔗 Milestone associé
+`v2.0 → v3.0`
+
+---
+
 # 📝 Issue — Finalisation de la version 2.0
 ## Projet : .github_action
 
