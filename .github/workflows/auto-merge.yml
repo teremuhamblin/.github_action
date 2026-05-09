@@ -1,0 +1,33 @@
+name: Auto Merge
+
+on:
+  pull_request:
+    types: [opened, synchronize, labeled]
+
+jobs:
+  auto-merge:
+    name: Auto Merge PR
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js (LTS)
+      - name: Setup Node.js (LTS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts
+
+      # 3. Auto-merge
+      - name: Enable auto-merge
+        uses: pascalgn/automerge-action@v0.16.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4. Summary
+      - name: Summary
+        run: |
+          echo "## 🤖 Auto-merge exécuté pour .github_action" >> $GITHUB_STEP_SUMMARY
+          echo "- PR : #${{ github.event.pull_request.number }}" >> $GITHUB_STEP_SUMMARY
