@@ -1,4 +1,4 @@
-name: Release
+name: Release (.github_action)
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    name: Create GitHub Release
+    name: Create Release
     runs-on: ubuntu-latest
 
     steps:
@@ -15,28 +15,32 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Génération du changelog automatique
-      - name: Generate changelog
-        id: changelog
-        run: |
-          echo "## 📦 Release ${{ github.ref_name }}" > changelog.md
-          echo "" >> changelog.md
-          echo "### 🔄 Commits inclus :" >> changelog.md
-          git log -10 --pretty=format:"- %s" >> changelog.md
+      # 2. Setup Node.js (LTS)
+      - name: Setup Node.js (LTS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts
+          cache: npm
 
-      # 3. Création de la release GitHub
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      # 4. Build project
+      - name: Build project
+        run: npm run build --if-present
+
+      # 5. Create GitHub Release
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
-          name: "Release ${{ github.ref_name }}"
-          body_path: changelog.md
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 4. Résumé
+      # 6. Summary
       - name: Summary
         run: |
-          echo "## 🏷️ Release créée" >> $GITHUB_STEP_SUMMARY
+          echo "## 🏷️ Release créée pour .github_action" >> $GITHUB_STEP_SUMMARY
           echo "- Tag : ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Changelog généré automatiquement" >> $GITHUB_STEP_SUMMARY
+          echo "- Build : OK" >> $GITHUB_STEP_SUMMARY
