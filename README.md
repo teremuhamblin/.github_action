@@ -137,10 +137,7 @@ Ton projet est maintenant :
 
 <p align="right">
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-
-![CI](https://github.com/teremuhamblin/.github_action/actions/workflows/action.yml/badge.svg)
-
-![Node](https://img.shields.io/badge/node-%3E%3D20-green)
+![Version](https://img.shields.io/badge/version-3.0-purple)
+![Node](https://img.shields.io/badge/node-%3E%3D20-purple)
 
 </p>
