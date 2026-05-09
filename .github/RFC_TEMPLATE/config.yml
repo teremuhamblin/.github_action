@@ -1,0 +1,8 @@
+rfc_templates:
+  - name: "🚀 Nouvelle fonctionnalité"
+    description: "Proposer une nouvelle fonctionnalité ou extension"
+    path: "RFC_FEATURE.md"
+
+  - name: "🔧 Changement majeur / Refonte"
+    description: "Proposer une modification importante ou une refonte"
+    path: "RFC_CHANGE.md"
