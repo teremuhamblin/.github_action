@@ -1,10 +1,11 @@
 ###### README.md * markdown
 ###### 🛠️ Badge GitHub Actions
 > Intégration Continue
-
 <p align="left">
 
 ![Base Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
+![Version Badge](https://img.shields.io/badge/Version-3.0-purple)
+![Node Badge](https://img.shields.io/badge/NodeJS-22.1.LTS-purple)
 
 ---
 
@@ -129,28 +130,7 @@ Ton projet est maintenant :
 ```
 
 <div align="center">
-  <img src="docs/assets/github_action.png" alt="GitHub Action Logo" width="300"/>
+  <img src="docs/assets/github_action.png" alt="GitHub Action Logo" width="210"/>
 </div>
 
 ---
-
-<p align="center">
-
-![Version](https://img.shields.io/badge/Version-3.0-red)
-
-![Node](https://img.shields.io/badge/NodeJS-22.1.LTS-purple)
-</p>
-```html 
-<p align="center">
-  <img src=".github/badges/version.svg" alt="Version">
-  <img src=".github/badges/ci.svg" alt="Ci">
-  <img src=".github/badges/deploy.svg" alt="Deploy">
-  <img src=".github/badges/release.svg" alt="Release">
-  <img src=".github/badges/auto-merge.svg" alt="AutoM">
-  <img src=".github/badges/auto-comment.svg" alt="AutoC">
-  <img src=".github/badges/node.svg" alt="LTS">
-  <img src=".github/badges/license.svg" alt="License">
-  <img src=".github/badges/author.svg" alt="Author">
-  <img src=".github/badges/status.svg" alt="Status">
-</p>
-```
