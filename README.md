@@ -140,7 +140,7 @@ Ton projet est maintenant :
 
 ![Node](https://img.shields.io/badge/NodeJS-22.1.LTS-purple)
 </p>
-
+```html 
 <p align="center">
   <img src=".github/badges/version.svg" alt="Version">
   <img src=".github/badges/ci.svg" alt="Ci">
@@ -153,3 +153,4 @@ Ton projet est maintenant :
   <img src=".github/badges/author.svg" alt="Author">
   <img src=".github/badges/status.svg" alt="Status">
 </p>
+```
