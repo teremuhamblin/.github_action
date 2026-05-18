@@ -4,6 +4,18 @@
 
 ---
 
+# 📜 FINAL — Dernière mise à jour
+## [1.0.0] – Fermeture du projet
+### Ajouté
+- Ajout du fichier `ARCHIVE_NOTICE.md`
+- Mise à jour du `README.md` avec bannière d’archivage
+
+### Modifié
+- Documentation finale avant archivage
+
+### Statut
+Le projet est désormais **figé** et ne recevra plus de mises à jour.
+
 🟦 v2.0 — Améliorations majeures (2026-05-09)
 
 🚀 Nouveautés
