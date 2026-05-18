@@ -1,4 +1,6 @@
 ###### README.md * markdown
+> ⚠️ **Ce dépôt est archivé**  
+> Il n’est plus maintenu et reste disponible uniquement pour consultation.
 ###### 🛠️ Badge GitHub Actions
 > Intégration Continue
 <p align="left">
