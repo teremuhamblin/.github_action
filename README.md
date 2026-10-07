@@ -1,13 +1,15 @@
 ###### README.md * markdown
-> ⚠️ **Ce dépôt est archivé**  
-> Il n’est plus maintenu et reste disponible uniquement pour consultation.
-###### 🛠️ Badge GitHub Actions
+
+> ⚠️ **Ce dépôt est PUBLIC**
+- Il est maintenu et reste disponible pour consultation et modification
+
+### 🛠️ Badge GitHub Actions
 > Intégration Continue
 <p align="left">
 
 ![Base Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
-![Version Badge](https://img.shields.io/badge/Version-3.0-purple)
-![Node Badge](https://img.shields.io/badge/NodeJS-22.1.LTS-purple)
+![Version Badge](https://img.shields.io/badge/Version-STABLE-purple)
+![Node Badge](https://img.shields.io/badge/Statut-STABLE-purple)
 
 ---
 
