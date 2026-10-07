@@ -1,9 +1,25 @@
 {
   "name": "github_action_project",
-  "version": "1.0.0",
+  "version": "1.0.0-archive",
+  "description": "Version finale archivée du projet GitHub Action. Aucun développement futur prévu.",
+  "private": true,
   "scripts": {
-    "lint": "echo 'No linter configured'",
-    "test": "echo 'No tests configured'",
-    "build": "echo 'No build step'"
-  }
+    "lint": "echo 'Projet archivé : aucun linter actif'",
+    "test": "echo 'Projet archivé : aucun test disponible'",
+    "build": "echo 'Projet archivé : aucune étape de build'",
+    "archive:status": "echo 'Ce projet est figé et archivé. Lecture seule.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teremu/github_action_project.git"
+  },
+  "keywords": [
+    "github",
+    "action",
+    "archive",
+    "final",
+    "readonly"
+  ],
+  "author": "Teremu",
+  "license": "MIT"
 }
