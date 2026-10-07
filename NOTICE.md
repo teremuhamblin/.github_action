@@ -2,7 +2,7 @@
 ###### - Le dépôt est public  
 ###### - Il a été réouvert  
 ###### - Toutes les modifications sont désormais autorisées  
-####$# - Issues, PR, discussions : tout est ouvert  
+###### - Issues, PR, discussions : tout est ouvert  
 
 # 🗃️ Dépôt réouvert
 >Ce dépôt, précédemment archivé, est désormais réouvert, public, et entièrement modifiable.  
