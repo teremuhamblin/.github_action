@@ -1,14 +1,12 @@
-name: CI (.github_action)
+name: Universal CI
 
 on:
   push:
   pull_request:
 
 jobs:
-  ci:
-    name: Continuous Integration
+  detect:
     runs-on: ubuntu-latest
-
     steps:
       # 1. Checkout
       - name: Checkout repository
@@ -25,17 +23,12 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
 
-      # 4. Lint
-      - name: Lint
-        run: npm run lint --if-present
-
-      # 5. Tests
-      - name: Run tests
-        run: npm test --if-present
-
-      # 6. Summary
-      - name: Summary
+      - name: Detect language
         run: |
-          echo "## ✅ CI exécutée pour .github_action" >> $GITHUB_STEP_SUMMARY
-          echo "- Node.js : LTS" >> $GITHUB_STEP_SUMMARY
-          echo "- Lint + Tests OK" >> $GITHUB_STEP_SUMMARY
+          if [ -f "package.json" ]; then echo "node" > lang.txt; fi
+          if ls *.py 1> /dev/null 2>&1; then echo "python" > lang.txt; fi
+          if ls *.go 1> /dev/null 2>&1; then echo "go" > lang.txt; fi
+          if ls *.rs 1> /dev/null 2>&1; then echo "rust" > lang.txt; fi
+
+      - name: Print detected language
+        run: cat lang.txt

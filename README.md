@@ -1,4 +1,7 @@
-###### README.md * markdown
+###### README.md * markdow
+```text
+>> MISE A JOUR * update
+```
 
 > ⚠️ **Ce dépôt est PUBLIC**
 - Il est maintenu et reste disponible pour consultation et modification
@@ -8,8 +11,12 @@
 <p align="left">
 
 ![Base Workflow](https://github.com/teremuhamblin/.github_action/actions/workflows/base.yml/badge.svg)
-![Version Badge](https://img.shields.io/badge/Version-STABLE-purple)
-![Node Badge](https://img.shields.io/badge/Statut-STABLE-purple)
+
+---
+
+   ![Version Badge](https://img.shields.io/badge/Version-STABLE-purple)
+
+   ![Node Badge](https://img.shields.io/badge/Statut-STABLE-purple)
 
 ---
 
