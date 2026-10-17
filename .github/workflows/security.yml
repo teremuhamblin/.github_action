@@ -1,0 +1,15 @@
+name: Security Scan
+
+on:
+  push:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: github/codeql-action/init@v3
+      - uses: github/codeql-action/analyze@v3
+      - uses: trufflesecurity/trufflehog@v3
