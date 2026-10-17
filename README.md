@@ -1,4 +1,7 @@
-###### README.md * markdown
+###### README.md * markdow
+```text
+>> MISE A JOUR * update
+```
 
 > ⚠️ **Ce dépôt est PUBLIC**
 - Il est maintenu et reste disponible pour consultation et modification
