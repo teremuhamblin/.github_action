@@ -1,24 +1,31 @@
 {
   "name": "github_action_project",
   "version": "1.0.0-archive",
-  "description": "Version finale archivée du projet GitHub Action. Aucun développement futur prévu.",
+  "description": "Version finale archivée du projet GitHub Action. Dépôt figé, aucune évolution future.",
   "private": true,
   "scripts": {
     "lint": "echo 'Projet archivé : aucun linter actif'",
     "test": "echo 'Projet archivé : aucun test disponible'",
     "build": "echo 'Projet archivé : aucune étape de build'",
-    "archive:status": "echo 'Ce projet est figé et archivé. Lecture seule.'"
+    "archive:status": "echo 'Ce projet est figé et archivé. Lecture seule.'",
+    "info": "echo 'Statut: ARCHIVE | Version: 1.0.0-archive | Auteur: Teremu'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teremu/github_action_project.git"
+    "url": "https://github.com/teremu/github_action_project.git"
   },
+  "bugs": {
+    "url": "https://github.com/teremu/github_action_project/issues"
+  },
+  "homepage": "https://github.com/teremu/github_action_project#readme",
   "keywords": [
     "github",
-    "action",
+    "actions",
     "archive",
     "final",
-    "readonly"
+    "readonly",
+    "ci",
+    "workflow"
   ],
   "author": "Teremu",
   "license": "MIT"
